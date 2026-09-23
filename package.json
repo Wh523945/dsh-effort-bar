@@ -1,0 +1,49 @@
+{
+  "name": "dsh-effort-bar",
+  "version": "0.1.0",
+  "description": "常驻推理强度滑条：档位自适应当前模型公布的 reasoning.efforts，拖动时气泡提示当前档位",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-client-plugin",
+    "reasoning-effort",
+    "slider"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wh523945/dsh-effort-bar.git"
+  },
+  "homepage": "https://github.com/Wh523945/dsh-effort-bar#readme",
+  "bugs": {
+    "url": "https://github.com/Wh523945/dsh-effort-bar/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# 仓库内统一 LF；文本文件自动识别为文本
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary

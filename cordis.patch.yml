@@ -1,0 +1,4 @@
+# dsh-effort-bar：把「常驻推理强度滑条」挂进 web profile 的插件链。
+- insert:
+    - id: dsh-effort-bar
+      name: dsh-effort-bar
